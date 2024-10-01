@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Harrington' ;
+    src: url('fonts/Harrington_M.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mason';
+    src: url('fonts/Mason.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Zrnic_Cyr';
+    src: url('fonts/Zrnic_Cyr.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Poster';
+    src: url('fonts/Poster.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.p-Leon{
+    text-align: right;
+    font-family: Mason;
+}
+
+.p-Adaline{
+    text-align: center;
+    font-family: Harrington;
+}
+
+.p-Maze{
+    text-align: justify;
+    font-family: Zrnic_Cyr;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+
+.imgs{
+    display: flex; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.list-films{
+    font-weight: bold;
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(59, 80, 77); 
+}
+
+section > div{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.section-films{
+    background-color: #88968f; 
+}
+
+.section-Leon {
+    background-color: hsl(148, 6%, 48%); 
+    
+}
+
+.section-Adaline{
+    background-color: hsl(150, 6%, 41%); 
+    
+}
+
+.section-Maze{
+    background-color: hsl(147, 6%, 35%); 
+    
+}
