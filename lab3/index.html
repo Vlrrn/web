@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Анкета</title>
+</head>
+<body>
+    <form action="" method="get">
+        <h1>Анкета участника</h1>
+        <fieldset >
+            <legend>Личные данные</legend>
+            <p>
+                <label for="fname">Имя:</label>
+                <input type="text" name="fname" id="fname" required>
+            </p>
+            <p>
+                <label for="lname">Фамилия:</label>
+                <input type="text" name="lname" id="lname" required>
+            </p>
+            <p>
+                <label for="date">Дата рождения:</label>
+                <input type="date" name="date" id="date" required>
+            </p>
+            <p >
+                <label for="gender" class="radio">Пол:
+                    <input type="radio" name="gender" id="male" required>Женский</input>
+                    <input type="radio" name="gender" id="female" required>Мужской</input>
+                </label>
+            </p>
+        
+            <fieldset>
+            <legend>Контактные данные</legend>
+            <p>
+              <label for="email">E-mail:</label>
+              <input type="email" name="email" id="email" placeholder="your_email@mail.com" required>
+            </p>  
+            <p>
+                <label for="phone">Телефон:</label>
+              <input type="tel" name="phone" id="phone" placeholder="+375 (xx) xx-xx-xxx" required>
+            </p>
+           </fieldset>
+           <p>
+            <label for="password">Введите пароль:</label>
+            <input type="password" name="password" id="password" minlength="4" placeholder="XXXX" required>
+        </p>
+        </fieldset>
+            <div class="ending">
+                <p>
+                    <label for="file" >Фото:</label>
+                    <input type="file" class="photo" name="photo" id="photo" required>
+                    <label for="photo" class="custom-button">Выбрать фото</label>
+                </p>
+                <p>
+                    <label for="send" class="checkbox">Рассылка:
+                        <br>
+                        <input type="checkbox" name="send" id="sms" required>SMS</input>
+                        <br>
+                        <input type="checkbox" name="send" id="email" required>E-mail</input>
+                    </label>
+                </p>
+            </div>    
+           
+        <div class="buttons"> 
+            <input type="submit" value="Сохранить" id="submit" class="submit">
+            <input type="reset" value="Очистить форму" id="reset" class="clear">
+        </div>
+    </form>
+</body>
+</html>
