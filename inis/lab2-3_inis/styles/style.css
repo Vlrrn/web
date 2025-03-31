@@ -1,0 +1,70 @@
+.field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.shirt {
+    width: 20%;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    margin: 25px;
+}
+.img {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+h3 {
+    margin: 5px;
+
+}
+p {
+    margin-top: 0px;
+}
+.buttonContainer {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+button:hover {
+    background-color: #2c3e27;
+}
+
+button {
+    padding: 5px;
+    background-color: #79a56e;
+    color: #fff;
+    width: 30%;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    margin: 10px;
+    height: 30px;
+}
+
+.quickView {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #96b8a2;
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+}
+.containerQV {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 25px;
+}
+.containerQV button {
+    width: 100%;
+}
