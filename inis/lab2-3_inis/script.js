@@ -80,8 +80,8 @@ function QuickView(shirt) {
     }
     imgF.src = shirt.colors.white['front'] || shirt.default['front'] || '404.jpg';
     imgB.src = shirt.colors.white['back'] || shirt.default['back'] || '404.jpg';
-    h4.textContent = shirt.name || 'Shirt with no name';
-    p.textContent = shirt.price || 'no-no-no-no';
+    h4.textContent = shirt.name || 'no name';
+    p.textContent = shirt.price || '0$';
 }
 
 function SeePage(shirt) {
